@@ -21,7 +21,7 @@
     "test": "echo 'no test'",
     "commit": "git-cz",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
-    "release": "release-it"
+    "release": "release-it --no-git.requireCleanWorkingDir"
   },
   "dependencies": {
     "superb": "^1.3.0"
