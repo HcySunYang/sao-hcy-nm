@@ -46,7 +46,8 @@ module.exports = {
       type: 'move',
       patterns: {
         gitignore: '.gitignore',
-        '_eslintrc.js': '.eslintrc.js'
+        '_eslintrc.js': '.eslintrc.js',
+        '_package.json': 'package.json'
       }
     }
   ],
