@@ -1,5 +1,6 @@
 ## <small>0.1.3 (2019-01-01)</small>
 
+* Release 0.1.3 ([1b28ac5](https://github.com/hcysunyang/sao-hcy-nm/commit/1b28ac5))
 * chore: remove bili.config.js ([ee8dca7](https://github.com/hcysunyang/sao-hcy-nm/commit/ee8dca7))
 
 
