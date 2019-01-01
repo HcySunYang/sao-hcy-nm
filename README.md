@@ -2,6 +2,10 @@
 
 > Personal favorite new project template - SAO generator
 
+## Status
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## Usage
 
 Install [SAO](https://github.com/saojs/sao) first.
