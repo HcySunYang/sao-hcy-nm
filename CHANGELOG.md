@@ -1,3 +1,10 @@
+## <small>0.1.4 (2019-01-01)</small>
+
+* Release 0.1.4 ([df14773](https://github.com/hcysunyang/sao-hcy-nm/commit/df14773))
+* fix: rename package.json -> _package.json ([4dc28d4](https://github.com/hcysunyang/sao-hcy-nm/commit/4dc28d4))
+
+
+
 ## <small>0.1.3 (2019-01-01)</small>
 
 * Release 0.1.3 ([1b28ac5](https://github.com/hcysunyang/sao-hcy-nm/commit/1b28ac5))
