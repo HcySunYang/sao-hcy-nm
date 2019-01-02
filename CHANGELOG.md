@@ -1,3 +1,10 @@
+## <small>0.1.5 (2019-01-02)</small>
+
+* fix: fix project name in Readme ([ecf30a1](https://github.com/hcysunyang/sao-hcy-nm/commit/ecf30a1))
+* chore: update changelog ([499c11d](https://github.com/hcysunyang/sao-hcy-nm/commit/499c11d))
+
+
+
 ## <small>0.1.4 (2019-01-01)</small>
 
 * Release 0.1.4 ([df14773](https://github.com/hcysunyang/sao-hcy-nm/commit/df14773))
