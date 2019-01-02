@@ -57,7 +57,12 @@ module.exports = {
         type: 'add',
         files: '**',
         filters: {
-          'jest.config.js': 'test === "jest"'
+          'jest.config.js': 'test === "jest"',
+          '.babelrc': 'compile',
+          'src/__test__/index.spec.js': 'test === "jest" && !compile',
+          'src/__test__/index.spec.compile.js': 'test === "jest" && compile',
+          'src/index.js': '!compile',
+          'src/index.compile.js': 'compile',
         }
       },
       {
@@ -65,7 +70,9 @@ module.exports = {
         patterns: {
           gitignore: '.gitignore',
           '_eslintrc.js': '.eslintrc.js',
-          '_package.json': 'package.json'
+          '_package.json': 'package.json',
+          'src/index.spec.compile.js': 'src/index.js',
+          'src/__test__/index.spec.compile.js': 'src/__test__/index.spec.js'
         }
       },
       {
