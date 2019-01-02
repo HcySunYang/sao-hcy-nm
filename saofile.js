@@ -62,7 +62,7 @@ module.exports = {
       {
         type: 'modify',
         files: 'package.json',
-        handler: data => require('./update-pkg')(this.answers, data)
+        handler: data => require('./lib/update-pkg')(this.answers, data)
       }
     ]
   },
