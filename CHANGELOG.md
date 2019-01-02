@@ -1,3 +1,10 @@
+## 0.2.0 (2019-01-02)
+
+* refactor: Dynamically generate package.json file & add test ([e290b39](https://github.com/hcysunyang/sao-hcy-nm/commit/e290b39))
+* chore: update changelog ([ff2934f](https://github.com/hcysunyang/sao-hcy-nm/commit/ff2934f))
+
+
+
 ## <small>0.1.5 (2019-01-02)</small>
 
 * fix: fix project name in Readme ([ecf30a1](https://github.com/hcysunyang/sao-hcy-nm/commit/ecf30a1))
