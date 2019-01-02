@@ -1,3 +1,9 @@
+## <small>0.4.1 (2019-01-02)</small>
+
+* feat: Distinguish between compilation and non-compilation ([3b2b1da](https://github.com/hcysunyang/sao-hcy-nm/commit/3b2b1da))
+
+
+
 ## <small>0.3.1 (2019-01-02)</small>
 
 * feat: add jest.config.js ([baa4593](https://github.com/hcysunyang/sao-hcy-nm/commit/baa4593))
