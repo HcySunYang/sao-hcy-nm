@@ -1,3 +1,12 @@
+## 0.3.0 (2019-01-02)
+
+* feat: Optional use bili to compile code ([efb399a](https://github.com/hcysunyang/sao-hcy-nm/commit/efb399a))
+* fix: docs style ([b180051](https://github.com/hcysunyang/sao-hcy-nm/commit/b180051))
+* docs: supplementary document ([e611c10](https://github.com/hcysunyang/sao-hcy-nm/commit/e611c10))
+* chore: tweak the changelog command ([5cacaa9](https://github.com/hcysunyang/sao-hcy-nm/commit/5cacaa9))
+
+
+
 ## <small>0.2.1 (2019-01-02)</small>
 
 * fix: add files ([085f3ef](https://github.com/hcysunyang/sao-hcy-nm/commit/085f3ef))
