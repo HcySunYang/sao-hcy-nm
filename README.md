@@ -10,13 +10,13 @@
 
 ## Why sao-hcy-nm ?
 
-✅ Respect the code style of prettier
-✅ Automatically formatted when saving (You need to install the [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) plugin)
-✅ Automatic fix code style before commit (Thanks to [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged))
-✅ Check committed messages when committing
-✅ Use `yarn commit` instead of `git commit` (Thanks to [commitizen](http://commitizen.github.io/cz-cli/))
-✅ Automatically generate changelog using `yarn changelog` (Thanks to [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli))
-✅ Automatic deployment with `yarn release` (Thanks to [release-it](https://github.com/webpro/release-it))
+- ✅ Respect the code style of prettier
+- ✅ Automatically formatted when saving (You need to install the [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) plugin)
+- ✅ Automatic fix code style before commit (Thanks to [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged))
+- ✅ Check committed messages when committing
+- ✅ Use `yarn commit` instead of `git commit` (Thanks to [commitizen](http://commitizen.github.io/cz-cli/))
+- ✅ Automatically generate changelog using `yarn changelog` (Thanks to [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli))
+- ✅ Automatic deployment with `yarn release` (Thanks to [release-it](https://github.com/webpro/release-it))
 
 ## Usage
 
