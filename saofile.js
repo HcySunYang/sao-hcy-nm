@@ -42,6 +42,12 @@ module.exports = {
         default: 'ava',
         store: true,
         choices: ['ava', 'jest', 'disable']
+      },
+      {
+        name: 'compile',
+        message: 'Do you need to compile ES2015 code',
+        type: 'confirm',
+        default: false
       }
     ]
   },

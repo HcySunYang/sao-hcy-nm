@@ -17,6 +17,8 @@
 - ✅ Use `yarn commit` instead of `git commit` (Thanks to [commitizen](http://commitizen.github.io/cz-cli/))
 - ✅ Automatically generate changelog using `yarn changelog` (Thanks to [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli))
 - ✅ Automatic deployment with `yarn release` (Thanks to [release-it](https://github.com/webpro/release-it))
+- ✅ Optionally Unit test ([jest](https://github.com/facebook/jest) or [ava](https://github.com/avajs/ava))
+- ✅ Optionally compile ES2015 code using [bili](https://github.com/unipahq/bili)
 
 ## Usage
 
