@@ -21,7 +21,7 @@
   "scripts": {
     "test": "echo 'no test'",
     "commit": "git-cz",
-    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s",
     "release": "release-it --no-git.requireCleanWorkingDir"
   },
   "dependencies": {
