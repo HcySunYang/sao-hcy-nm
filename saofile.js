@@ -34,23 +34,38 @@ module.exports = {
           return `github.com/${username}`
         },
         store: true
+      },
+      {
+        name: 'test',
+        message: 'Which test framework do you use?',
+        type: 'list',
+        default: 'ava',
+        store: true,
+        choices: ['ava', 'jest', 'disable']
       }
     ]
   },
-  actions: [
-    {
-      type: 'add',
-      files: '**'
-    },
-    {
-      type: 'move',
-      patterns: {
-        gitignore: '.gitignore',
-        '_eslintrc.js': '.eslintrc.js',
-        '_package.json': 'package.json'
+  actions() {
+    return [
+      {
+        type: 'add',
+        files: '**'
+      },
+      {
+        type: 'move',
+        patterns: {
+          gitignore: '.gitignore',
+          '_eslintrc.js': '.eslintrc.js',
+          '_package.json': 'package.json'
+        }
+      },
+      {
+        type: 'modify',
+        files: 'package.json',
+        handler: data => require('./update-pkg')(this.answers, data)
       }
-    }
-  ],
+    ]
+  },
   async completed() {
     this.gitInit()
     await this.npmInstall()
