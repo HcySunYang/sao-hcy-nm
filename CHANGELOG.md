@@ -1,3 +1,10 @@
+## <small>0.2.1 (2019-01-02)</small>
+
+* fix: add files ([085f3ef](https://github.com/hcysunyang/sao-hcy-nm/commit/085f3ef))
+* chore: update changelog ([71fa4e1](https://github.com/hcysunyang/sao-hcy-nm/commit/71fa4e1))
+
+
+
 ## 0.2.0 (2019-01-02)
 
 * refactor: Dynamically generate package.json file & add test ([e290b39](https://github.com/hcysunyang/sao-hcy-nm/commit/e290b39))
