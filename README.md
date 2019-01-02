@@ -8,6 +8,8 @@
 [![](https://img.shields.io/npm/v/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
 [![](https://img.shields.io/npm/l/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
 
+![](https://github.com/HcySunYang/sao-hcy-nm/blob/master/imgs/preview.png)
+
 ## Why sao-hcy-nm ?
 
 - ✅ Respect the code style of prettier
