@@ -1,4 +1,4 @@
-## <small>0.4.1 (2019-01-02)</small>
+## <small>0.3.2 (2019-01-02)</small>
 
 * feat: Distinguish between compilation and non-compilation ([3b2b1da](https://github.com/hcysunyang/sao-hcy-nm/commit/3b2b1da))
 
