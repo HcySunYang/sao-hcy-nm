@@ -55,7 +55,10 @@ module.exports = {
     return [
       {
         type: 'add',
-        files: '**'
+        files: '**',
+        filters: {
+          'jest.config.js': 'test === "jest"'
+        }
       },
       {
         type: 'move',
@@ -68,7 +71,7 @@ module.exports = {
       {
         type: 'modify',
         files: 'package.json',
-        handler: data => require('./lib/update-pkg')(this.answers, data)
+        handler: () => require('./lib/update-pkg')(this.answers)
       }
     ]
   },
