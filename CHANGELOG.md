@@ -1,3 +1,10 @@
+## <small>0.3.1 (2019-01-02)</small>
+
+* feat: add jest.config.js ([baa4593](https://github.com/hcysunyang/sao-hcy-nm/commit/baa4593))
+* docs: add preview image ([d94fef4](https://github.com/hcysunyang/sao-hcy-nm/commit/d94fef4))
+
+
+
 ## 0.3.0 (2019-01-02)
 
 * feat: Optional use bili to compile code ([efb399a](https://github.com/hcysunyang/sao-hcy-nm/commit/efb399a))
