@@ -3,10 +3,10 @@
   "version": "0.3.3",
   "description": "Personal favorite new project template - SAO generator",
   "repository": {
-    "url": "hcysunyang/sao-hcy-nm",
+    "url": "HcySunYang/sao-hcy-nm",
     "type": "git"
   },
-  "author": "hcysunyang <HcySunYang@outlook.com> (github.com/HcySunYang)",
+  "author": "HcySunYang <HcySunYang@outlook.com> (github.com/HcySunYang)",
   "license": "MIT",
   "files": [
     "saofile.js",

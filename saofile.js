@@ -18,7 +18,6 @@ module.exports = {
         name: 'username',
         message: 'What is your GitHub username',
         default: this.gitUser.username || this.gitUser.name,
-        filter: val => val.toLowerCase(),
         store: true
       },
       {
