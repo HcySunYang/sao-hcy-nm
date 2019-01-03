@@ -1,3 +1,11 @@
+## <small>0.3.3 (2019-01-03)</small>
+
+* feat: Support test coverage & ava use case demo ([7032de3](https://github.com/hcysunyang/sao-hcy-nm/commit/7032de3))
+* chore: tweak changelog ([fdb1d5b](https://github.com/hcysunyang/sao-hcy-nm/commit/fdb1d5b))
+* chore: update README ([c84722b](https://github.com/hcysunyang/sao-hcy-nm/commit/c84722b))
+
+
+
 ## <small>0.3.2 (2019-01-02)</small>
 
 * feat: Distinguish between compilation and non-compilation ([3b2b1da](https://github.com/hcysunyang/sao-hcy-nm/commit/3b2b1da))
