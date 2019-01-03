@@ -41,7 +41,14 @@ module.exports = {
         type: 'list',
         default: 'ava',
         store: true,
-        choices: ['ava', 'jest', 'disable']
+        choices: ['jest', 'ava', 'disable']
+      },
+      {
+        name: 'coverage',
+        message: 'Do you want to add test coverage support',
+        type: 'confirm',
+        default: false,
+        when: answers => answers.test !== 'disable'
       },
       {
         name: 'compile',
@@ -61,6 +68,7 @@ module.exports = {
           '.babelrc': 'compile',
           'src/__test__/index.spec.js': 'test === "jest" && !compile',
           'src/__test__/index.spec.compile.js': 'test === "jest" && compile',
+          'src/__test__/index.spec.ava.js': 'test === "ava"',
           'src/index.js': '!compile',
           'src/index.compile.js': 'compile',
         }
@@ -71,14 +79,20 @@ module.exports = {
           gitignore: '.gitignore',
           '_eslintrc.js': '.eslintrc.js',
           '_package.json': 'package.json',
-          'src/index.spec.compile.js': 'src/index.js',
-          'src/__test__/index.spec.compile.js': 'src/__test__/index.spec.js'
+          'src/index.compile.js': 'src/index.js',
+          'src/__test__/index.spec.compile.js': 'src/__test__/index.spec.js',
+          'src/__test__/index.spec.ava.js': 'src/__test__/index.spec.js',
         }
       },
       {
         type: 'modify',
         files: 'package.json',
         handler: () => require('./lib/update-pkg')(this.answers)
+      },
+      {
+        type: 'modify',
+        files: '.gitignore',
+        handler: (data) => require('./lib/update-gitignore')(this.answers, data)
       }
     ]
   },
