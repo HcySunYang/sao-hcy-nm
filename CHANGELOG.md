@@ -1,3 +1,13 @@
+## <small>0.4.1 (2019-01-03)</small>
+
+* Release 0.4.1 ([0bc1d01](https://github.com/HcySunYang/sao-hcy-nm/commit/0bc1d01))
+* chore: Badge using shields ([43f68cf](https://github.com/HcySunYang/sao-hcy-nm/commit/43f68cf))
+* chore: update readme ([63d0ac9](https://github.com/HcySunYang/sao-hcy-nm/commit/63d0ac9))
+* feat: add circleci badge ([7518deb](https://github.com/HcySunYang/sao-hcy-nm/commit/7518deb))
+* docs: Update preview ([bf03c14](https://github.com/HcySunYang/sao-hcy-nm/commit/bf03c14))
+
+
+
 ## 0.4.0 (2019-01-03)
 
 * feat: add project Status ([31fb57c](https://github.com/HcySunYang/sao-hcy-nm/commit/31fb57c))
