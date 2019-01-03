@@ -20,6 +20,7 @@
 - ✅ Automatically generate changelog using `yarn changelog` (Thanks to [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli))
 - ✅ Automatic deployment with `yarn release` (Thanks to [release-it](https://github.com/webpro/release-it))
 - ✅ Optionally Unit test ([jest](https://github.com/facebook/jest) or [ava](https://github.com/avajs/ava))
+- ✅ Optionally test coverage
 - ✅ You can choose whether you need to compile ES2015, if you need to compile then generate es module, otherwise generate cjs module
 
 ## Usage
