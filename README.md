@@ -8,7 +8,7 @@
 [![](https://img.shields.io/npm/v/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
 [![](https://img.shields.io/npm/dm/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
 [![](https://img.shields.io/npm/l/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
-[![](https://badgen.net/badge/support%20me/donate/ff00ff)](https://www.patreon.com/HcySunYang)
+[![](https://img.shields.io/badge/support%20me-donate-ff00ff.svg)](https://www.patreon.com/HcySunYang)
 
 ![](https://github.com/HcySunYang/sao-hcy-nm/blob/master/imgs/preview.png)
 
