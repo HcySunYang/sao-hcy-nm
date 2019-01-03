@@ -9,6 +9,9 @@
 <% if (badges.indexOf('commitizen-friendly') > -1) { -%>
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 <% } -%>
+<% if (badges.indexOf('circleci') > -1) { -%>
+[![](https://badgen.net/circleci/github/<%= username %>/<%= name %>/master)](https://circleci.com/gh/<%= username %>/<%= name %>/tree/master)
+<% } -%>
 <% if (badges.indexOf('npm-version') > -1) { -%>
 [![](https://img.shields.io/npm/v/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>)
 <% } -%>
