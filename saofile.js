@@ -54,6 +54,19 @@ module.exports = {
         message: 'Do you need to compile ES2015 code',
         type: 'confirm',
         default: false
+      },
+      {
+        name: 'badges',
+        message: 'Choose the badge you want to add',
+        type: 'checkbox',
+        default: ['commitizen-friendly', 'npm-version', 'npm-download', 'license', 'patreon'],
+        choices: [
+          { name: 'Commitizen friendly', value: 'commitizen-friendly' },
+          { name: 'NPM version', value: 'npm-version' },
+          { name: 'NPM download', value: 'npm-download' },
+          { name: 'License', value: 'license' },
+          { name: 'Patreon', value: 'patreon' }
+        ]
       }
     ]
   },

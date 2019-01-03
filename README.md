@@ -22,7 +22,8 @@
 - ✅ Automatic deployment with `yarn release` (Thanks to [release-it](https://github.com/webpro/release-it))
 - ✅ Optionally Unit test ([jest](https://github.com/facebook/jest) or [ava](https://github.com/avajs/ava))
 - ✅ Optionally test coverage
-- ✅ You can choose whether you need to compile ES2015, if you need to compile then generate es module, otherwise generate cjs module
+- ✅ Optionally compile ES2015 code using (Thanks to [bili](https://github.com/unipahq/bili))
+- ✅ Optionally add badge to README
 
 ## Usage
 

@@ -2,12 +2,25 @@
 
 > <%= description %>
 
+<% if (badges.length > 0) { -%>
 ## Status
+<% } -%>
 
+<% if (badges.indexOf('commitizen-friendly') > -1) { -%>
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+<% } -%>
+<% if (badges.indexOf('npm-version') > -1) { -%>
 [![](https://img.shields.io/npm/v/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>)
+<% } -%>
+<% if (badges.indexOf('npm-download') > -1) { -%>
+[![](https://img.shields.io/npm/dm/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>)
+<% } -%>
+<% if (badges.indexOf('license') > -1) { -%>
 [![](https://img.shields.io/npm/l/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>)
+<% } -%>
+<% if (badges.indexOf('patreon') > -1) { -%>
 [![](https://badgen.net/badge/support%20me/donate/ff00ff)](https://www.patreon.com/<%= username %>)
+<% } -%>
 
 ## Contributing
 
