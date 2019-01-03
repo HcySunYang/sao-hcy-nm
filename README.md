@@ -6,6 +6,7 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![](https://img.shields.io/npm/v/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
+[![](https://img.shields.io/npm/dm/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
 [![](https://img.shields.io/npm/l/sao-hcy-nm.svg)](https://www.npmjs.com/package/sao-hcy-nm)
 [![](https://badgen.net/badge/support%20me/donate/ff00ff)](https://www.patreon.com/HcySunYang)
 
