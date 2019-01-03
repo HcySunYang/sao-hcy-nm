@@ -10,7 +10,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 <% } -%>
 <% if (badges.indexOf('circleci') > -1) { -%>
-[![](https://badgen.net/circleci/github/<%= username %>/<%= name %>/master)](https://circleci.com/gh/<%= username %>/<%= name %>/tree/master)
+[![](https://img.shields.io/circleci/project/github/<%= username %>/<%= name %>.svg)](https://circleci.com/gh/<%= username %>/<%= name %>/tree/master)
 <% } -%>
 <% if (badges.indexOf('npm-version') > -1) { -%>
 [![](https://img.shields.io/npm/v/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>)
@@ -22,7 +22,7 @@
 [![](https://img.shields.io/npm/l/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>)
 <% } -%>
 <% if (badges.indexOf('patreon') > -1) { -%>
-[![](https://badgen.net/badge/support%20me/donate/ff00ff)](https://www.patreon.com/<%= username %>)
+[![](https://img.shields.io/badge/support%20me-donate-ff00ff.svg)](https://www.patreon.com/<%= username %>)
 <% } -%>
 
 ## Contributing
