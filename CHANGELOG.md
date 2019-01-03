@@ -1,3 +1,12 @@
+## 0.4.0 (2019-01-03)
+
+* feat: add project Status ([31fb57c](https://github.com/HcySunYang/sao-hcy-nm/commit/31fb57c))
+* feat: Support for optional automatic add badges ([2fcee20](https://github.com/HcySunYang/sao-hcy-nm/commit/2fcee20))
+* fix: Preserve the case of the username ([0350880](https://github.com/HcySunYang/sao-hcy-nm/commit/0350880))
+* docs: tweak ([efab22d](https://github.com/HcySunYang/sao-hcy-nm/commit/efab22d))
+
+
+
 ## <small>0.3.3 (2019-01-03)</small>
 
 * feat: Support test coverage & ava use case demo ([7032de3](https://github.com/HcySunYang/sao-hcy-nm/commit/7032de3))
