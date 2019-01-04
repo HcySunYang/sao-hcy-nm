@@ -14,6 +14,8 @@
 
 ## Why sao-hcy-nm ?
 
+Chinese users can read this article: [关于高效、高质和高产](https://zhuanlan.zhihu.com/p/54036326).
+
 - ✅ Respect the code style of prettier
 - ✅ Automatically formatted when saving (You need to install the [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) plugin)
 - ✅ Automatic fix code style before commit (Thanks to [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged))
