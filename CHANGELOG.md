@@ -1,3 +1,10 @@
+## 0.5.0 (2019-01-05)
+
+* feat: Add prettier badge ([2991dc0](https://github.com/HcySunYang/sao-hcy-nm/commit/2991dc0))
+* docs: Add article link ([eae43e7](https://github.com/HcySunYang/sao-hcy-nm/commit/eae43e7))
+
+
+
 ## <small>0.4.1 (2019-01-03)</small>
 
 * Release 0.4.1 ([0bc1d01](https://github.com/HcySunYang/sao-hcy-nm/commit/0bc1d01))
