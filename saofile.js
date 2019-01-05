@@ -59,14 +59,23 @@ module.exports = {
         name: 'badges',
         message: 'Choose the badge you want to add',
         type: 'checkbox',
-        default: ['commitizen-friendly', 'circleci', 'npm-version', 'npm-download', 'license', 'patreon'],
+        default: [
+          'commitizen-friendly',
+          'circleci',
+          'npm-version',
+          'npm-download',
+          'license',
+          'patreon',
+          'prettier'
+        ],
         choices: [
           { name: 'Commitizen friendly', value: 'commitizen-friendly' },
           { name: 'Circleci', value: 'circleci' },
           { name: 'NPM version', value: 'npm-version' },
           { name: 'NPM download', value: 'npm-download' },
           { name: 'License', value: 'license' },
-          { name: 'Patreon', value: 'patreon' }
+          { name: 'Patreon', value: 'patreon' },
+          { name: 'Prettier', value: 'prettier' }
         ]
       }
     ]
