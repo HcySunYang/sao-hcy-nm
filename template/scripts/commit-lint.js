@@ -1,7 +1,7 @@
 const read = require('@commitlint/read')
 const chalk = require('chalk')
 
-const commitRule = /^(revert: )?(feat|opti|fix|docs|style|refactor|perf|test|workflow|build|ci|chore|types|wip)(\(.+\))?: .{1,50}/
+const commitRule = /^(revert: )?((feat|opti|fix|docs|style|refactor|perf|test|workflow|build|ci|chore|types|wip)(\(.+\))?: .{1,50}|Release(\s.+(\n){2}))/
 
 const linter = async () => {
   const msg = await read({ edit: true })
