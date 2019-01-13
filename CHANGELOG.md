@@ -1,3 +1,9 @@
+## <small>0.5.1 (2019-01-13)</small>
+
+* fix: commitlint ([bd753cd](https://github.com/HcySunYang/sao-hcy-nm/commit/bd753cd))
+
+
+
 ## 0.5.0 (2019-01-05)
 
 * feat: Add prettier badge ([2991dc0](https://github.com/HcySunYang/sao-hcy-nm/commit/2991dc0))
