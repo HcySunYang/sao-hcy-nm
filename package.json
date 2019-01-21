@@ -30,13 +30,89 @@
   "devDependencies": {
     "commitizen": "^3.0.5",
     "conventional-changelog-cli": "^2.0.11",
-    "cz-conventional-changelog": "2.1.0",
+    "cz-emoji": "^1.1.2",
     "release-it": "^9.4.3",
     "sao": "^1.0.0"
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "cz-emoji"
+    },
+    "cz-emoji": {
+      "types": [
+        {
+          "emoji": "\t🌟",
+          "code": ":star2:",
+          "description": "\tA new feature",
+          "name": "feat"
+        },
+        {
+          "emoji": "\t🐞",
+          "code": ":beetle:",
+          "description": "\tA bug fix",
+          "name": "fix"
+        },
+        {
+          "emoji": "\t🎨",
+          "code": ":art:",
+          "description": "\tNeither fixes a bug nor adds a feature",
+          "name": "refactor"
+        },
+        {
+          "emoji": "\t🚓",
+          "code": ":police_car:",
+          "description": "\t Testing improved with new or fixed tests",
+          "name": "test"
+        },
+        {
+          "emoji": "\t🔩",
+          "code": ":nut_and_bolt:",
+          "description": "\tDoesn't modify src or test files",
+          "name": "chore"
+        },
+        {
+          "emoji": "\t💰",
+          "code": ":moneybag:",
+          "description": "\tImproves performance with this change",
+          "name": "perf"
+        },
+        {
+          "emoji": "\t🚥",
+          "code": ":traffic_light:",
+          "description": "\tCI config files and scripts",
+          "name": "ci"
+        },
+        {
+          "emoji": "\t♻️",
+          "code": ":recycle:",
+          "description": "\tOptimize workflow",
+          "name": "workflow"
+        },
+        {
+          "emoji": "\t🚀",
+          "code": ":rocket:",
+          "description": "\tBuild system config or external dependencies",
+          "name": "build"
+        },
+        {
+          "emoji": "\t📚",
+          "code": ":books:",
+          "description": "\tDocumentation change",
+          "name": "docs"
+        },
+        {
+          "emoji": "\t💊",
+          "code": ":pill:",
+          "description": "\tReverts a previous commit",
+          "name": "revert"
+        },
+        {
+          "emoji": "\t🎉",
+          "code": ":tada:",
+          "description": "\tInitialize a new package.",
+          "name": "init"
+        }
+      ]
     }
   }
 }
